@@ -1,0 +1,15 @@
+result-view {
+  match: bathroomInfo(this)
+  
+  message {
+    template ("주변 화장실 확인")
+  }
+  
+  render {
+    layout-macro (result_details) {
+      param (bathroomInfo) {
+        expression (this)
+      }
+    }
+  }
+}

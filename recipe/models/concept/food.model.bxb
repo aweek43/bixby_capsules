@@ -1,0 +1,24 @@
+structure (food) {
+  description (요리)
+  
+  property (foodName) {
+    type(foodName)
+    min (Required)
+  }
+  
+  property(step) {
+    type(step)
+    min (Required)
+  }
+  
+  property (ingredient) {
+    type(ingredient)
+    min (Optional)
+  }
+  
+  property (stepRecipe) {
+    type(stepRecipe)
+    min (Optional) max (Many)
+  }
+
+}

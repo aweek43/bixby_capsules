@@ -1,0 +1,5 @@
+train (t-ju2v1cqqmrn2jdeij90ik444i) {
+  utterance ([g:showStepRecipe:continue:food] 그 다음은?)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEUTLM7ILw8uSS0IAnOx62FiYARiBiDJyMAAowE=)
+  last-modified (1557819584662)
+}

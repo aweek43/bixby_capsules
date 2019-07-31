@@ -1,0 +1,5 @@
+train (t-c2v6l90pxe5267ium7o2hcup2) {
+  utterance ("[g:showAllRecipe] (김치찌개)[v:foodName] 요리 방법 알고 싶어")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560790397403)
+}

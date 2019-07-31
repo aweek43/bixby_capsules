@@ -1,0 +1,4 @@
+structure (currentLocation) {
+  description (The source geo GeoPoint)
+  role-of (geo.NamedPoint)
+}

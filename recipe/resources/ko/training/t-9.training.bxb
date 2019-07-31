@@ -1,0 +1,5 @@
+train (t-9apmommwbgqp416zl1s4c7rar) {
+  utterance ([g:showStepRecipe:continue:food] 그다음은)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEUTLM7ILw8uSS0IAnOx62FiYARiBiDJyMAAowE=)
+  last-modified (1560790493971)
+}

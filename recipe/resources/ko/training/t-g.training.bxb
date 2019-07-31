@@ -1,0 +1,5 @@
+train (t-goiptetsveulz4skrb0vv4490) {
+  utterance ("[g:showAllRecipe] (된장찌개)[v:foodName] 조리 방법 검색해줘")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560790453323)
+}

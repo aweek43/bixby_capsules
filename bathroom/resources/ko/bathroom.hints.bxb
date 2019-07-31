@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (주변에 화장실 어딨어)
+    utterance (주변 화장실 알려줘)
+    utterance (주변 화장실 보여줘)
+  }
+}

@@ -1,0 +1,23 @@
+endpoints {
+  action-endpoints {
+    
+    // 가장 처음 레시피를 알려줌
+    action-endpoint (showAllRecipe) {
+      accepted-inputs (foodName)
+      local-endpoint (ShowAllRecipe.js)
+    }
+    
+    // 요리 객체를 이용해 요리를 시작함
+    action-endpoint (showStepRecipe) {
+      accepted-inputs (food)
+      local-endpoint (ShowStepRecipe.js)
+    }
+    
+    // 요리 객체를 이용해 요리를 시작함
+    action-endpoint (backStep) {
+    accepted-inputs (food)
+    local-endpoint (backStep.js)
+    }
+   
+  }
+}

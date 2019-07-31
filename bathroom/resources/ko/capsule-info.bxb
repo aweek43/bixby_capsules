@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (공중화장실찾기)
+  developer-name (김한주)
+  icon-asset (images/icon.png)
+  description ("공중화장실찾기는 주변의 공중화장실 위치를 알려줍니다.")
+  search-keywords {
+    keyword (공중화장실찾기)
+  }
+  dispatch-name (공중화장실찾기)
+  dispatch-aliases {
+    alias (공중 화장실 찾기)
+    alias (공중화장실 찾기)
+ }
+  privacy-policy-url(https://github.com/aweek43/privacy-policy/blob/master/privacy-policy.md)
+}

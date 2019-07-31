@@ -1,0 +1,5 @@
+train (t-7ud6hbkpfsr32852xw6q3fdab) {
+  utterance ([g:bathroomInfo] 주변 화장실 보여줘)
+  plan (Y2BkkE0sT03NNjHWS0osySjKz8+FMzzz0vIZQIARRAAA)
+  last-modified (1560331682395)
+}

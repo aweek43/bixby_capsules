@@ -1,0 +1,15 @@
+train (t-hco189tbll2ipe3t0adifkn6z) {
+  utterance ("[g:showAllRecipe] (김치찌개)[v:foodName] 조리방법 찾아줘")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560486225206)
+}
+train (t-hibtfxh2d8ajur016icjis4vn) {
+  utterance ("[g:showAllRecipe] (제육볶음)[v:foodName] 만드는 방법 알려줘")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560486195956)
+}
+train (t-hk37szimglftb2vj11t3tv4cl) {
+  utterance ("[g:showAllRecipe] (김치찌개)[v:foodName] 레시피 찾아줘")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560486143808)
+}

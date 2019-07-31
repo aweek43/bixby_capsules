@@ -1,0 +1,16 @@
+layout-macro-def (details) {
+  params {
+    param (details_for_view) {
+      type(food)
+      min (Required)
+    }
+  }
+  content {
+    paragraph {
+      value {
+        template ("#{value(details_for_view.ingredient)}")
+      }
+      style (Title_S)
+    }
+  }
+}

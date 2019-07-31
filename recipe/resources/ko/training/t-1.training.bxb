@@ -1,0 +1,15 @@
+train (t-19ote64mt30c4qcniaj3pmu13) {
+  utterance ([g:backStep:continue:food] 이전 단계 다시 알려줘)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hEEcTTEpMzg4uSS3ArpqJgRGIGYAkIwMDjAYA)
+  last-modified (1560790598205)
+}
+train (t-1g5skdzmul54pu5zh3xys7g7i) {
+  utterance ([g:showStepRecipe:continue:food] 요리 시작할래)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEUTLM7ILw8uSS0IAnOx62FiYARiBiDJyMAAowE=)
+  last-modified (1560948491214)
+}
+train (t-1iazic52c5sy3bh0h583qv6j3) {
+  utterance ([g:showStepRecipe:continue:food] 요리 시작할게)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEUTLM7ILw8uSS0IAnOx62FiYARiBiDJyMAAowE=)
+  last-modified (1557819578552)
+}

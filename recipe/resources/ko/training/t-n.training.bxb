@@ -1,0 +1,5 @@
+train (t-n50vzr2ob0f705njk353pr5v3) {
+  utterance ([g:backStep:continue:food] 이전 단계 다시알려줘)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hEEcTTEpMzg4uSS3ArpqJgRGIGYAkIwMDjAYA)
+  last-modified (1560486243163)
+}

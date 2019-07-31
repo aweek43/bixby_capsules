@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (showCurrentLocation) {
+      accepted-inputs (currentLocation)
+      local-endpoint (ShowCurrentLocation.js)
+    }
+
+  }
+}

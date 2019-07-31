@@ -1,0 +1,13 @@
+action (showAllRecipe) {
+  description (처음 음식 이름을 입력받아 전체 레시피를 출력하는 함수)
+  collect {
+    
+    input (foodName) {
+      type (foodName)
+      min (Required) max (One)
+    }
+    
+  }
+  type (Search)
+  output (food)
+}

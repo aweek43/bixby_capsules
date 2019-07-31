@@ -1,0 +1,10 @@
+train (t-z56hijjnh9235f6jmdfexj4x0) {
+  utterance ("[g:showAllRecipe] (김치찌개)[v:foodName] 요리방법 알고싶어")
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEETLM7IL3fMyQkC8xjEsWjxS8xNZWBiYARiBiDJyAACUD4A)
+  last-modified (1560486094813)
+}
+train (t-zarhnc4i6h3f4yg1zmezzna7p) {
+  utterance ([g:showStepRecipe:continue:food] 다음 단계 알려줘)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hkEUTLM7ILw8uSS0IAnOx62FiYARiBiDJyMAAowE=)
+  last-modified (1560486295525)
+}

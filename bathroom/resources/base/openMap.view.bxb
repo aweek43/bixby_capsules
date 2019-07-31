@@ -1,0 +1,19 @@
+result-view {
+  match: mapAPI(this)
+  
+  message()
+  
+  app-launch {
+    payload-uri{
+      if(exists(this)){
+        template("#{value(this)}")
+      }
+    }
+    requires {
+      app-id (net.daum.android.map)
+      app-name (카카오맵)
+      app-store-url (market://details?id=net.daum.android.map)
+    }
+  } 
+
+}

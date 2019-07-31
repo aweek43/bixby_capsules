@@ -1,0 +1,33 @@
+result-view {
+  match: food(this)
+
+  
+  message {
+    if(exists(this.ingredient)) {
+      template ("재료를 확인하세요")
+      
+    }
+    else {
+      template ("현재의 요리 순서입니다.") {
+        speech ("#{value(this.stepRecipe[this.step-1])}")
+      }
+    }
+  }
+  
+  render {
+    if(exists(this.ingredient)) {
+      layout-macro (details) {
+        param (details_for_view) {
+          expression (this)
+        }
+      }
+    }
+    else {
+           layout-macro (Cooking_details) {
+      param (cooking_details_for_view) {
+        expression (this)
+      }
+    }
+    }
+  }
+}

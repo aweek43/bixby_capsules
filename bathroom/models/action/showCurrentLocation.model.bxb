@@ -1,0 +1,18 @@
+action (showCurrentLocation) {
+  description (현재 위치 표시)
+  collect {
+    input (currentLocation) {
+      type (currentLocation)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: currentLocation
+          route: geo.CurrentLocation
+        }
+      }
+    }
+
+  }
+  type(Constructor)
+  output (bathroomInfo)
+}

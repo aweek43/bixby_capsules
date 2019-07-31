@@ -1,0 +1,142 @@
+layout-macro-def (result_details) {
+  params {
+    param (bathroomInfo) {
+      type(bathroomInfo)
+      min (Required) max (Many)
+    }
+  }
+  
+  
+    content {
+    section {
+      content {
+        
+        if(bathroomInfo[0].mapAPI == 'none') {
+           paragraph {
+              value {
+                  template ("주변에 화장실이 없습니다.")
+              }
+              style (Title_M)
+          }
+        }
+        
+        else {
+      map-card {
+        aspect-ratio(16:9)
+          title-area {
+            slot1{
+              text {
+                value ("개방시간:#{value(bathroomInfo[0].opentime)},거리:#{value(bathroomInfo[0].distance)}m")
+              }
+            }
+          }
+       on-click{
+            intent{
+              goal: openMap
+              value: $expr(bathroomInfo[0].mapAPI)
+            }
+          }
+          
+    markers {
+        marker {
+            geo (bathroomInfo[0].currentLocation.point)
+            icon ("/images/green-marker.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+        marker {
+            geo (bathroomInfo[0].bathroomLocation.point)
+            icon ("/images/bathroom.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+    }
+}
+        
+
+          map-card {
+        aspect-ratio(16:9)
+          title-area {
+            slot1{
+              text {
+                value ("개방시간:#{value(bathroomInfo[1].opentime)},거리:#{value(bathroomInfo[1].distance)}m")
+              }
+            }
+          }
+       on-click{
+            intent{
+              goal: openMap
+              value: $expr(bathroomInfo[1].mapAPI)
+            }
+          }
+          
+    markers {
+        marker {
+            geo (bathroomInfo[1].currentLocation.point)
+            icon ("/images/green-marker.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+        marker {
+            geo (bathroomInfo[1].bathroomLocation.point)
+            icon ("/images/bathroom.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+    }
+}     
+    
+     map-card {
+        aspect-ratio(16:9)
+          title-area {
+            slot1{
+              text {
+                value ("개방시간:#{value(bathroomInfo[2].opentime)},거리:#{value(bathroomInfo[2].distance)}m")
+              }
+            }
+          }
+       on-click{
+            intent{
+              goal: openMap
+              value: $expr(bathroomInfo[2].mapAPI)
+            }
+          }
+          
+    markers {
+        marker {
+            geo (bathroomInfo[2].currentLocation.point)
+            icon ("/images/green-marker.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+        marker {
+            geo (bathroomInfo[2].bathroomLocation.point)
+            icon ("/images/bathroom.png")
+            width (15)
+            height (20)
+            anchor-x (5)
+            anchor-y (15)
+            rotation (0)
+        }
+    }
+}
+      }
+      }
+    }
+  }
+}

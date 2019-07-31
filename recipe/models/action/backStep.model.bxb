@@ -1,0 +1,12 @@
+action (backStep) {
+  description (바로 전 단계로 돌아감)
+  collect {
+    input (food) {
+      type (food)
+      min (Required) max (One)
+    }
+
+  }
+  type (Search)
+  output (food)
+}

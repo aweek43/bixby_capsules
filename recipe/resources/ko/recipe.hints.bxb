@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (김치찌개 레시피 알려줘)
+    utterance (김치찌개 만드는 방법 알려줘)
+    utterance (김치찌개 레시피 찾아줘)
+  }
+}

@@ -1,0 +1,12 @@
+action (showStepRecipe) {
+  description (요리를 시작해 레시피를 순서대로 보여주는 함수)
+  collect {
+    input (food) {
+      type (food)
+      min (Required) max (One)
+    }
+
+  }
+  type (Search)
+  output (food)
+}

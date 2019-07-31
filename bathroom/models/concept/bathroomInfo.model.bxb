@@ -1,0 +1,27 @@
+structure (bathroomInfo) {
+  description (화장실의 정보)
+  property (currentLocation) {
+    type (currentLocation)
+    min (Optional) max (One)
+  }
+  
+  property (bathroomLocation) {
+    type (bathroomLocation)
+    min (Optional) max (One)
+  }
+  
+  property (opentime) {
+    type(opentime)
+    min (Required)
+  }
+  
+  property (distance) {
+    type(distance)
+    min (Required)
+  }
+  
+  property (mapAPI) {
+    type(mapAPI)
+    min (Required)
+  }
+}

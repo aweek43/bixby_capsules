@@ -1,0 +1,16 @@
+layout-macro-def (Cooking_details) {
+  params {
+    param (cooking_details_for_view) {
+      type(food)
+      min (Required)
+    }
+  }
+  content {
+    paragraph {
+      value {
+        template ("#{value(cooking_details_for_view.stepRecipe[cooking_details_for_view.step-1])}")
+      }
+      style (Title_M)
+    }
+  }
+}

@@ -1,0 +1,3 @@
+name (foodName) {
+  description (음식 이름)
+}

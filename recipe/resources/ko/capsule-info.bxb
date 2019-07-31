@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (요리도우미)
+  developer-name (김한주)
+  icon-asset (icon.png)
+  description ("요리도우미는 사용자와 소통하며 같이 요리를 진행합니다.")
+  search-keywords {
+    keyword (요리 커뮤니케이션)
+    keyword (레시피 알리미)
+    keyword (요리 도우미)
+  }
+  dispatch-name (요리도우미)
+  dispatch-aliases {
+    alias (요리 도우미)
+ }
+}

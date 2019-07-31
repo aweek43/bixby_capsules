@@ -1,0 +1,5 @@
+train (t-8e9hpwh2g4aitqg066vfhp9sy) {
+  utterance ([g:backStep:continue:food] 이전 단계 보여줘)
+  plan (Y2BmEE4sT03NNjHWK0pNzixI1UvLz09hEEcTTEpMzg4uSS3ArpqJgRGIGYAkIwMDjAYA)
+  last-modified (1557944966461)
+}

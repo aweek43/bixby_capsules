@@ -1,0 +1,24 @@
+capsule {
+  id (aweek43.bathroom)
+  version (0.5.4)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
+  
+  capsule-imports {
+    import (viv.geo) { as (geo) version (9.17.27)}
+  }
+  permissions {
+    user-profile-access
+  }
+  store-sections {
+    section (Local)
+  }
+}

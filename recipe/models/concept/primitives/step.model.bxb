@@ -1,0 +1,3 @@
+integer (step) {
+  description (단계 번호)
+}
